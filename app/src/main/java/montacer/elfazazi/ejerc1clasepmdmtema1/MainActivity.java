@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if(txtFrase.getText().toString().length()> 0){
                     int contPalabras = frase.trim().length();
                     String mensaje = "El numero de Caracteres es "+ contPalabras;
-                    crearNuevaActividad(mensaje);
+                    crearNuevaActividad(mensaje); //hola
                 }else{
                     Toast.makeText(MainActivity.this,"Escribe algo!!", Toast.LENGTH_LONG);
                 }
